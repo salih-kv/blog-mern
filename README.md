@@ -1,4 +1,4 @@
-# BLOG - MERN
+# Open Source blog application - MERN
 
 Features to Implement:
   - ✅Sign Up / Login
