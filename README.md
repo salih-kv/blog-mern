@@ -1,7 +1,8 @@
 # BLOG - MERN
 
 Features to Implement:
-  - Sign Up / Login
+  - ✅Sign Up / Login
+  - Google signup/login
   - password reset
   - email verification
   - profile customization
