@@ -2,6 +2,9 @@ import { Route, Routes } from "react-router-dom";
 import Header from "./components/Header/Header";
 import Home from "./page/Home/Home";
 import Profile from "./page/Profile/Profile";
+import Signup from "./page/Signup/Signup";
+import Login from "./page/Login/Login";
+import Blog from "./page/Blogging/Blog";
 
 function App() {
   return (
@@ -12,14 +15,14 @@ function App() {
         <Route path="/profile" element={<Profile />} />
         <Route
           path="/create-blog"
-          element={<h3>this is Upload Your BLOG Content PAge</h3>}
+          element={<Blog />}
         />
 
-        <Route path="/login" element={<h3>this is login page </h3>} />
+        <Route path="/login" element={<Login />} />
 
         <Route
           path="/signup"
-          element={<h3>This is Signup page </h3>}
+          element={<Signup />}
         />
       </Routes>
     </>
