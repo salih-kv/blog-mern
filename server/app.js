@@ -12,7 +12,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(cors());
 
 // routes
-app.use("api/auth", authRouter);
+app.use("/api/auth", authRouter);
 
 if (process.env.NODE_ENV != "production") {
   dotenv.config({ path: "./config/config.env" });
