@@ -18,7 +18,7 @@ function Header() {
               <Nav.Link ><Link to='/profile' className='custom-link'>Profile</Link></Nav.Link>
               <Nav.Link ><Link to='/create-blog' className='custom-link'>Create-blog</Link></Nav.Link>
               <NavDropdown title="Login/Logout" id="basic-nav-dropdown">
-                <NavDropdown.Item ><Link to='/login' className='custom-link'>Login</Link></NavDropdown.Item>
+                <NavDropdown.Item ><Link to='/signup' className='custom-link'>signup</Link></NavDropdown.Item>
                 <NavDropdown.Item ><Link to='/' className='custom-link'>Home</Link></NavDropdown.Item>
                               </NavDropdown>
             </Nav>
