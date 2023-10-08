@@ -30,6 +30,12 @@ const userSchema = new mongoose.Schema(
       type: String,
       maxlength: 160,
     },
+    blogs: [
+      {
+        type: mongoose.Types.ObjectId,
+        ref: "Blog",
+      },
+    ],
   },
   {
     timestamps: true,
