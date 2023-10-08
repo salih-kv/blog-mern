@@ -1,0 +1,10 @@
+header{
+    color: white;
+}
+/* Header.css */
+.custom-link {
+    text-decoration: none; /* Remove underlines */
+    color: inherit; /* Inherit the color from the parent */
+    /* Add any other styles you want */
+  }
+  
